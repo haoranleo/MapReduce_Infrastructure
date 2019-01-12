@@ -2,12 +2,6 @@
 
 This project implemented a simplied version of `MapReduce` infrastructure.
 
-[Project Description](description.md)
-
-[Code walk through](structure.md)
-
-[How to setup the project](INSTALL.md)
-
 ## About MapReduce
 
 MapReduce is a programming model and an associated implementation for processing and generating large data sets. Users specify a map function that processes a key/value pair to generate a set of intermediate key/value pairs, and a reduce function that merges all intermediate values associated with the same intermediate key. Programs written in this functional style are automatically parallelized and executed on a large cluster of commodity machines. The run-time system takes care of the details of partitioning the input data, scheduling the program’s execution across a set of machines, handling machine failures, and managing the required inter-machine communication.
@@ -30,6 +24,8 @@ To compile the source code and run the experiment, enter the following code in t
    3. Then start your main map reduce process: `./mrdemo config.ini`
    4. Once the ./mrdemo finishes, kill all the worker proccesses you started.
    5. Check output directory to see if you have the correct results (obviusly once you have done the proper implementation of your library)
+
+## Project Assignment Files
 
 [Project Description](description.md)
 
