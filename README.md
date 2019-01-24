@@ -9,6 +9,7 @@ MapReduce is a programming model and an associated implementation for processing
 ## Group Member
 
 Group Member: Haoran Li
+
 Submission Date: Dec. 3, 2018
 
 ##Start-up Instruction
